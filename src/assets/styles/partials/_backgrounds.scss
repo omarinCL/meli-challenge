@@ -1,0 +1,5 @@
+@each $key, $value in $meli-backgrounds {
+  .bg-#{$key} {
+    background-color: $value;
+  }
+}

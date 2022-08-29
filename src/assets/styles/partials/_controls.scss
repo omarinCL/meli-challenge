@@ -1,0 +1,26 @@
+.btn-search-meli {
+  border-color: var(--bs-btn-hover-border-color);
+}
+
+.input-no-focus {
+  &:focus {
+    border: 1px solid #ced4da;
+    box-shadow: none;
+  }
+}
+
+.meli-breadcrum {
+  --bs-breadcrumb-divider: ">";
+  font-size: 0.85rem;
+  a {
+    color: var(--bs-breadcrumb-item-active-color);
+  } 
+}
+
+.product-item-list {
+  cursor: pointer;
+}
+
+.btn-buy {
+  min-width: 200px;
+}
